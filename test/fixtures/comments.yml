@@ -3,9 +3,9 @@
 one:
   content: MyText
   message_id: 
-  user_id: 
+  rider_id: 
 
 two:
   content: MyText
   message_id: 
-  user_id: 
+  rider_id: 
