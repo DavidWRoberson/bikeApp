@@ -3,6 +3,6 @@
 <%= simple_form_for @message do |f| %>
 	<%= f.input :title, label: "Post Title" %>
 	<%= f.input :description %>
-	<%= f.input :category %>
+	<%= f.select(:category, ['General','Off Topic','Coast to Coast Trails','East Coast Trails','West Coast Trails','Off-road trails'], {:class => 'select'})%>
 	<%= f.button :submit %>
 <% end %>
